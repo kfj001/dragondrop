@@ -1,0 +1,45 @@
+# Unity project — commit source (Assets/), ignore everything Unity regenerates.
+# Based on https://github.com/github/gitignore/blob/main/Unity.gitignore, adapted
+# for this project's layout (builds exported to bin/ and built/).
+
+# ---- Unity generated folders (recreated on open, can be hundreds of MB) ----
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Uu]serSettings/
+/[Mm]emoryCaptures/
+/[Rr]ecordings/
+
+# ---- This project's local build output (builds are exported here) ----
+/bin/
+/built/
+
+# ---- IDE / editor metadata ----
+.vs/
+.idea/
+.vsconfig
+
+# ---- Files Unity auto-generates at project root (regenerated on open) ----
+/*.csproj
+/*.sln
+/*.suo
+/*.user
+/*.userprefs
+/*.pidb
+/*.tmp
+/*.booproj
+/*.svd
+/*.pdb
+/*.ilk
+/*.opendb
+/sysinfo.txt
+
+# ---- Build artifacts ----
+*.unitypackage
+*.app
+
+# ---- Crashlytics ----
+crashlytics-log.db*
